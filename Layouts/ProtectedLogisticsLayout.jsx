@@ -17,7 +17,7 @@ const [auth, setAuth] = useState(true);
           <Outlet />
         </main>)
 
-         : <Navigate to='/'/>
+         : <Navigate to='/login'/>
       }
       <Footer/>
     </>
